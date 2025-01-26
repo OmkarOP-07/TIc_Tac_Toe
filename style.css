@@ -58,9 +58,16 @@ body {
     font-size: 2rem;
     background-color: #C1DFF0;
     margin-left: 33%;
-    margin-right: 33%;
+    margin-right: 20%;
 }
 
 .hide {
     visibility: hidden;
+}
+.footer {
+    display: flex;
+}
+.myName {
+    color: white;
+    font-size: 1.3rem;
 }
