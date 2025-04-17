@@ -15,8 +15,8 @@ if (!oname) oname = "Player O";
 if (!xname) xname = "Player X";
 
 // Set names on the screen
-playerONameEl.innerText = oname;
-playerXNameEl.innerText = xname;
+playerONameEl.innerText = oname+" (O)"; 
+playerXNameEl.innerText = xname +" (X)";    
 
 // Track scores
 let scoreO = 0;
